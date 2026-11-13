@@ -1,0 +1,20 @@
+.confocal{padding:110px 0;background:#e3ece7;scroll-margin-top:24px}
+.confocal-intro{display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:center}
+.confocal h2{font-size:clamp(40px,4.6vw,68px);font-weight:560;letter-spacing:-.055em;line-height:1.06;margin:23px 0}
+.confocal h2 em{font-style:normal;color:#28786d}.confocal-lead{font-size:19px;color:#425b5b;max-width:630px}
+.confocal .eyebrow{color:#356e63}.confocal .btn{margin-top:16px;background:var(--deep);color:#effaf5}
+.confocal-photo{margin:0;background:#f6f8f4;border:1px solid #c9d9d1;padding:18px}
+.confocal-photo img{display:block;width:100%;max-height:420px;object-fit:contain}
+.confocal figcaption{font-size:12px;line-height:1.6;color:#526963;margin-top:12px}
+.confocal-metrics{display:grid;grid-template-columns:repeat(3,1fr);margin:48px 0 0;border-top:1px solid #b8ccc2;border-bottom:1px solid #b8ccc2}
+.confocal-metrics div{padding:24px 22px;border-right:1px solid #b8ccc2}.confocal-metrics div:first-child{padding-left:0}.confocal-metrics div:last-child{border:0}
+.confocal-metrics dt{font-size:12px;color:#42635b}.confocal-metrics dd{font-size:37px;letter-spacing:-.05em;line-height:1.2;margin:0 0 5px;order:-1}.confocal-metrics div{display:flex;flex-direction:column}
+.confocal-block{margin-top:64px}.confocal-block h3{font-size:29px;letter-spacing:-.035em;line-height:1.2;margin-bottom:23px;font-weight:600}
+.confocal-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;list-style:none;padding:0;margin:0}.confocal-steps li{border-top:2px solid #72a699;padding-top:18px}.confocal-steps span{font-size:11px;letter-spacing:.12em;color:#43786d}.confocal-steps h4{font-size:18px;margin:9px 0}.confocal-steps p,.confocal-detail p{font-size:14px;line-height:1.7;color:#4f6660;margin-bottom:0}
+.confocal-detail{display:grid;grid-template-columns:1.15fr .85fr;gap:50px}.confocal table{border-collapse:collapse;width:100%;font-size:14px}.confocal th,.confocal td{text-align:left;vertical-align:top;border-bottom:1px solid #c0d2c8;padding:13px 0}.confocal th{font-weight:550;width:54%;padding-right:20px}.confocal td{font-weight:650}.confocal caption{text-align:left;font-size:12px;color:#526963;margin-bottom:10px}
+.confocal-software{background:#f4f7f2;padding:30px}.confocal-software ul{padding-left:19px;font-size:14px;line-height:2;color:#425e55}.confocal-software h4{margin:24px 0 8px;font-size:16px}
+.confocal-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.confocal-results figure{margin:0;background:#f7f9f5;border:1px solid #c5d7cc;padding:12px}.confocal-results img{display:block;width:100%;height:auto;aspect-ratio:1862/1032;object-fit:contain;background:white}.confocal-results a{display:block}.confocal-results a:hover{opacity:.85}.confocal-results strong{display:block;font-size:16px;color:var(--ink);margin-bottom:5px}.confocal-results figcaption{padding:4px 5px 8px}
+.confocal-source{font-size:12px;line-height:1.7;color:#526963;margin:24px 0 0}.confocal-collaboration{border-top:1px solid #b8ccc2;margin-top:42px;padding-top:24px;font-size:14px;color:#425e55;max-width:850px}
+.confocal a:focus-visible{outline:3px solid #28786d;outline-offset:5px}.work-body a{color:#27786e;text-decoration:underline;text-underline-offset:4px}.work-art{grid-template-rows:minmax(0,1fr);grid-template-columns:minmax(0,1fr)}.work-art img{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain}.work-art.confocal-work{background:#f5f5f0}
+@media(max-width:1000px){.nav-links{gap:15px}.confocal-intro{gap:30px}.confocal-detail{gap:25px}}
+@media(max-width:680px){.confocal{padding:70px 0}.confocal-intro,.confocal-detail,.confocal-steps,.confocal-results{grid-template-columns:1fr}.confocal-photo img{max-height:340px}.confocal-metrics div{padding:18px 10px}.confocal-metrics dd{font-size:28px}.confocal-metrics dt{font-size:11px}.confocal-block{margin-top:42px}.confocal-software{padding:22px}.confocal h2{font-size:42px}.confocal-lead{font-size:17px}}
